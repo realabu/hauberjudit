@@ -23,7 +23,7 @@ def build():
  if r['mode'] not in ('offline','online'):raise ValueError('Unknown mode')
  if r['mode']=='online' and (not r['legalApproved'] or not r['contentApproved'] or c['review']['enabled'] or not r['apiBaseUrl'].startswith('https://')):raise ValueError('Online requires approved content/legal, review disabled, HTTPS API')
  OUT.mkdir(parents=True,exist_ok=True)
- for f in ('styles.css','app.js','integrations.js','admin.html','admin.js','status.html','status.js'):shutil.copyfile(SRC/f,OUT/f)
+ for f in ('styles.css','app.js','integrations.js','admin.html','admin.js','status.html','status.js','compare.html'):shutil.copyfile(SRC/f,OUT/f)
  for name,obj in [('content',c),('runtime',r)]: (OUT/(name+'.json')).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
  version=hashlib.sha256((SRC/'styles.css').read_bytes()+(SRC/'app.js').read_bytes()+(SRC/'integrations.js').read_bytes()).hexdigest()[:12]
  rv=c['review']; b=c['brand'];h=c['hero'];a=c['about'];o=c['offers'];bk=c['booking'];ct=c['contact']

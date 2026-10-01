@@ -7,19 +7,19 @@ const menu=$('.menu-toggle');menu?.addEventListener('click',()=>{const open=menu
 $('#navigation')?.addEventListener('click',e=>{if(e.target.closest('a')){menu.setAttribute('aria-expanded','false');$('#navigation').classList.remove('open');}});
 const format=(date,opts)=>new Intl.DateTimeFormat('hu-HU',{timeZone:runtime.calendar.timezone,...opts}).format(new Date(date));
 const dateKey=date=>new Intl.DateTimeFormat('en-CA',{timeZone:runtime.calendar.timezone,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(date));
-const summary=s=>`${s.title} · ${format(s.start,{month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'})} · ${new Intl.NumberFormat('hu-HU').format(s.price)} Ft`;
+const summary=s=>`${s.title || content.offers.items.find(x=>x.id===s.serviceId)?.title || content.brand.name} · ${format(s.start,{month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'})} · ${new Intl.NumberFormat('hu-HU').format(s.price)} Ft`;
 let slots=[],selected=null,booking=null,formKey=null,view='list',selectedDay=null;
 let month=new Date();month=new Date(month.getFullYear(),month.getMonth(),1);
 const serviceFilter=$('#service-filter');if(serviceFilter&&$('#main').dataset.service)serviceFilter.value=$('#main').dataset.service;
 if($('#offline-notice'))$('#offline-notice').hidden=!api.demo;
 function filtered(){return slots.filter(s=>!serviceFilter.value||s.serviceId===serviceFilter.value);}
 function renderSlots(){const list=filtered().filter(s=>!selectedDay||dateKey(s.start)===selectedDay);
-  $('#slots').innerHTML=list.length?list.map(s=>`<article class="slot ${s.available?'':'full'}"><div class="slot-date"><strong>${esc(format(s.start,{day:'numeric'}))}</strong><span>${esc(format(s.start,{month:'short',weekday:'short'}))}</span></div><div><h3>${esc(s.title)}</h3><p>${esc(format(s.start,{hour:'2-digit',minute:'2-digit'}))}–${esc(format(s.end,{hour:'2-digit',minute:'2-digit'}))} · ${new Intl.NumberFormat('hu-HU').format(s.price)} Ft</p><p>${s.available?`${s.available} ${esc(t.seats)}`:esc(t.full)}</p></div>${s.available?`<button class="button primary" data-slot="${esc(s.id)}">${esc(t.choose)} ↗</button>`:`<span class="badge">${esc(t.full)}</span>`}</article>`).join(''):`<p>${esc(t.empty)}</p>`;
+  $('#slots').innerHTML=list.length?list.map(s=>`<article class="slot ${s.available?'':'full'}"><div class="slot-date"><strong>${esc(format(s.start,{day:'numeric'}))}</strong><span>${esc(format(s.start,{month:'short',weekday:'short'}))}</span></div><div><h3>${esc(s.title)}</h3><p>${esc(format(s.start,{hour:'2-digit',minute:'2-digit'}))}–${esc(format(s.end,{hour:'2-digit',minute:'2-digit'}))} · ${new Intl.NumberFormat('hu-HU').format(s.price)} Ft</p><p>${s.available?`${s.available} ${esc(t.seats)}`:''}</p></div>${s.available?`<button class="button primary" data-slot="${esc(s.id)}">${esc(t.choose)} ↗</button>`:`<span class="badge">${esc(t.full)}</span>`}</article>`).join(''):`<p>${esc(t.empty)}</p>`;
 }
 function renderCalendar(){const year=month.getFullYear(),m=month.getMonth();$('#month-label').textContent=new Intl.DateTimeFormat('hu-HU',{year:'numeric',month:'long'}).format(month);
   const week=Array.from({length:7},(_,i)=>new Intl.DateTimeFormat('hu-HU',{weekday:'short'}).format(new Date(2026,0,5+i))).map(w=>`<div class="calendar-weekday">${esc(w)}</div>`).join('');
   const offset=(new Date(year,m,1).getDay()+6)%7;const count=new Date(year,m+1,0).getDate();let cells='<span></span>'.repeat(offset);
-  for(let day=1;day<=count;day++){const key=`${year}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;const matches=filtered().filter(s=>dateKey(s.start)===key);const available=matches.filter(s=>s.available>0).length;
+  for(let day=1;day<=count;day++){const key=`${year}-${String(m+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;const matches=filtered().filter(s=>dateKey(s.start)===key);const available=matches.reduce((sum,s)=>sum+Math.max(0,s.available),0);
    cells+=`<button class="calendar-day ${available?'available':''} ${selectedDay===key?'selected':''}" data-date="${key}" aria-label="${key}: ${available} ${esc(t.seats)}" ${matches.length?'':'disabled'}>${day}${matches.length?`<span>${available?`${available} ${esc(t.seats)}`:esc(t.full)}</span>`:''}</button>`;}
   $('#calendar-grid').innerHTML=week+cells;
 }

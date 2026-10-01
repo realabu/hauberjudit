@@ -10,11 +10,12 @@ export function createAdapter(runtime,content,{fetchImpl=globalThis.fetch,now=()
   const bookings=new Map();
   const service=id=>content.offers.items.find(x=>x.id===id);
   const slots=demo?runtime.calendar.mockSlots.map(s=>{
-    const d=new Date(now());d.setDate(d.getDate()+s.daysAhead);d.setHours(s.hour,s.minute,0,0);
+    const d=new Date(now());
     // Mock wall-clock times belong to Europe/Budapest, independent of viewer timezone.
     const parts=new Intl.DateTimeFormat('en-CA',{timeZone:runtime.calendar.timezone,year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);
     const val=k=>parts.find(x=>x.type===k).value;
     let wall=Date.UTC(+val('year'),+val('month')-1,+val('day'),s.hour,s.minute);
+    wall+=s.daysAhead*86400000;
     const probe=new Date(wall);const zparts=new Intl.DateTimeFormat('en-GB',{timeZone:runtime.calendar.timezone,timeZoneName:'longOffset'}).formatToParts(probe);
     const offset=zparts.find(x=>x.type==='timeZoneName').value.match(/GMT([+-])(\d{2}):(\d{2})/);
     if(offset)wall-=(offset[1]==='+'?1:-1)*(+offset[2]*60 + +offset[3])*60000;
