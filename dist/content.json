@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Szabó-Hauber Judit — Anyakörök és life coaching",
+    "description": "Figyelem és támogatás az anyaságban. Anyakörök, egyéni life coaching és szülésélmény-feldolgozás Szabó-Hauber Judittal, Szigetszentmiklóson.",
+    "language": "hu",
+    "domain": "hauberjudit.hu",
+    "canonicalUrl": null
+  },
+  "brand": {
+    "name": "Szabó-Hauber Judit",
+    "role": "Life coach · Anyakörvezető",
+    "initials": "HJ"
+  },
+  "theme": {
+    "ink": "#451b2c",
+    "plum": "#703f52",
+    "accent": "#e1e452",
+    "paper": "#f4ece3",
+    "white": "#fffdfa"
+  },
+  "navigation": [
+    {
+      "label": "Rólam",
+      "href": "#rolam"
+    },
+    {
+      "label": "Miben segíthetek?",
+      "href": "#lehetosegek"
+    },
+    {
+      "label": "Kártyák",
+      "href": "#kartyak"
+    },
+    {
+      "label": "Kapcsolat",
+      "href": "#kapcsolat"
+    }
+  ],
+  "labels": {
+    "skip": "Ugrás a tartalomhoz",
+    "menu": "Menü",
+    "details": "Mire számíthatsz?",
+    "backTop": "Az oldal tetejére",
+    "external": "Új ablakban nyílik",
+    "copyright": "Szabó-Hauber Judit",
+    "illustration": "Három nő figyelmes beszélgetése — illusztráció"
+  },
+  "hero": {
+    "eyebrow": "Figyelem. Kapcsolódás. Saját válaszok.",
+    "heading": "Az anyaságban te is számítasz.",
+    "text": "Az örömök mellett a kérdéseidnek, a fáradtságodnak és a változó érzéseidnek is helyük van. Anyakörökön és egyéni beszélgetésekben kísérlek, hogy figyelmet adhass magadnak is.",
+    "primary": "Találd meg a neked való támogatást",
+    "secondary": "Ismerj meg",
+    "location": "Szigetszentmiklós és környéke",
+    "format": "Személyes találkozások",
+    "image": "assets/anyakor-illusztracio.webp"
+  },
+  "intro": {
+    "eyebrow": "Egy kis tér neked",
+    "heading": "Nem kell mindig mindenre tudnod a választ.",
+    "text": "Lehet, hogy más anyákhoz kapcsolódnál. Lehet, hogy egy kérdést szeretnél nyugodtan átgondolni, vagy a szülésed történetét szeretnéd elmesélni. A közös munkában onnan indulunk, ahol most vagy."
+  },
+  "about": {
+    "eyebrow": "Ismerj meg",
+    "heading": "Szia, Judit vagyok.",
+    "lead": "Life coach, anyakörvezető és két gyermek édesanyja.",
+    "paragraphs": [
+      "Anyaként én is megtapasztalom, mennyi új kérdést, szerepet és érzést hoz a gyerekek érkezése. A munkámban olyan beszélgetéseknek szeretnék helyet adni, amelyekben te és a saját megéléseid kerülhettek a középpontba.",
+      "Végzett life coach és Mother Nature anyakörvezető vagyok. A szülésélmény-feldolgozás témájában a Perinatus Alapítványnál tanultam, jelenleg pedig a Pázmány Péter Katolikus Egyetemen folytatok pszichológiai tanulmányokat.",
+      "Korábbi közgazdasági, szociológiai tanulmányaim és külföldi tapasztalataim is alakították azt, ahogyan az emberekre és a különböző élethelyzetekre figyelek. Ma elsősorban az anyaság körüli változásokban szeretnék társad lenni."
+    ],
+    "note": "A saját történetednek is helye van.",
+    "portrait": null,
+    "portraitAlt": "Szabó-Hauber Judit portréja",
+    "qualifications": [
+      {
+        "title": "Life coach",
+        "text": "Végzett life coach"
+      },
+      {
+        "title": "Mother Nature",
+        "text": "Végzett anyakörvezető"
+      },
+      {
+        "title": "Perinatus Alapítvány",
+        "text": "Szülésélmény-feldolgozási kurzus"
+      },
+      {
+        "title": "Pázmány Péter Katolikus Egyetem",
+        "text": "Folyamatban lévő pszichológiai tanulmányok"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Miben segíthetek?",
+    "heading": "Többféle út, ugyanaz a figyelem.",
+    "text": "Elsősorban várandós és kisgyermekes édesanyákat várok. Választhatsz közösségi kapcsolódást vagy személyes, egyéni figyelmet.",
+    "items": [
+      {
+        "id": "anyakor",
+        "number": "01",
+        "label": "Kapcsolódás más anyákhoz",
+        "title": "Anyakörök",
+        "description": "Egy közösség, ahol beszélhetünk az anyaság örömeiről, kérdéseiről és nehezebb pillanatairól. Megoszthatod a saját megéléseidet, és figyelmet adhatsz mások történetének is.",
+        "details": [
+          "Vezetett, közös beszélgetések az anyaság különböző témáiról, a Mother Nature szemléletével.",
+          "Az alkalmakon a saját tapasztalatod és a kapcsolódás kap hangsúlyt. Nem kell kész válaszokkal érkezned.",
+          "A személyes körök Szigetszentmiklóson, családias környezetben indulnak. A témákat és az időpontokat az egyes körök meghirdetésekor osztom meg."
+        ]
+      },
+      {
+        "id": "coaching",
+        "number": "02",
+        "label": "Idő és figyelem csak neked",
+        "title": "Egyéni life coaching",
+        "description": "Ha egy élethelyzetet, döntést vagy az anyasággal kapcsolatos kérdést kettesben szeretnél átgondolni. A beszélgetésekben a saját szempontjaidat és a következő lépéseidet keressük.",
+        "details": [
+          "Te hozod azt a témát, amivel foglalkoznál. Kérdésekkel és figyelemmel kísérlek a saját válaszaid keresésében.",
+          "A folyamat hossza a témádtól és az élethelyzetedtől függ. Lehet néhány, például 3–5 alkalom, vagy hosszabb együttműködés.",
+          "Induláskor személyes alkalmakat tervezek Szigetszentmiklóson; a későbbiekben online találkozásokra is szeretnék lehetőséget adni."
+        ]
+      },
+      {
+        "id": "szuleselmeny",
+        "number": "03",
+        "label": "A te történeted, a te tempódban",
+        "title": "Szülésélmény-feldolgozás",
+        "description": "Ha szeretnél időt és figyelmet adni annak, hogyan élted meg a szülésedet. A történetedet egyéni beszélgetésben vagy erre a témára épülő anyakörben is elhozhatod.",
+        "details": [
+          "Lehet helye az örömnek, a kérdéseknek és a nehéz érzéseknek is. A saját megélésedből indulunk ki.",
+          "A szülésélmény témájára külön anyakört és egyéni beszélgetési lehetőséget is tervezek.",
+          "A részleteket és a megfelelő együttműködési formát előzetesen egyeztetjük."
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Hogyan indulunk?",
+    "heading": "Egy beszélgetéssel kezdődik.",
+    "steps": [
+      {
+        "title": "Elmondod, mi foglalkoztat",
+        "text": "Írhatsz a kérdésedről, vagy arról, melyik lehetőség érdekel. Nem kell mindent előre megfogalmaznod."
+      },
+      {
+        "title": "Egyeztetjük a részleteket",
+        "text": "Megbeszéljük a találkozás formáját, az időpontot és a díjat. A folyamat hossza a témához és hozzád igazodik."
+      },
+      {
+        "title": "Teret adunk a történetednek",
+        "text": "Személyesen, családias környezetben találkozunk Szigetszentmiklóson."
+      }
+    ]
+  },
+  "cards": {
+    "eyebrow": "Az anyai mérföldköveknek is jár figyelem",
+    "heading": "Anya lettem kártyák",
+    "text": "Az anyaság első évében a te életed is tele van új pillanatokkal. Az Anya lettem kártyákat azért hoztuk létre, hogy ezeknek is emléket állíthass: humorral, szeretettel és a saját történeteddel.",
+    "secondary": "Az illusztrált kártyák hátoldalán a gondolataidat és érzéseidet is megörökítheted. A kártyacsomagot a saját webáruházunkban találod meg.",
+    "button": "Megnézem a kártyákat",
+    "url": "https://anyalettemkartyak.hu/",
+    "image": "assets/anya-lettem-kartyak.webp",
+    "imageAlt": "Az Anya lettem kártyák eredeti csomagolása"
+  },
+  "faq": {
+    "eyebrow": "Jó tudni",
+    "heading": "Néhány kérdés, mielőtt elindulsz.",
+    "items": [
+      {
+        "question": "Hol találkozunk?",
+        "answer": "Szigetszentmiklóson, családias környezetben. A pontos helyszínt az egyeztetés során osztom meg veled. Szigethalomról, Tökölről, Dunaharasztiból és Budapest közeli részeiről is várlak."
+      },
+      {
+        "question": "Lesz online lehetőség is?",
+        "answer": "Induláskor a személyes találkozásokra helyezem a hangsúlyt. A későbbiekben az egyéni coachingot és az anyaköröket is szeretném online elérhetővé tenni."
+      },
+      {
+        "question": "Hány coachingalkalomra lesz szükség?",
+        "answer": "Ez a témádtól és az élethelyzetedtől függ. Lehet 3–5 alkalom, de hosszabb folyamat is. A részleteket közösen egyeztetjük."
+      },
+      {
+        "question": "Mennyibe kerülnek az alkalmak?",
+        "answer": "Az induló díjak és az anyakörök időpontjai még kialakítás alatt állnak. Az együttműködés előtt minden részletet egyeztetünk."
+      },
+      {
+        "question": "Pszichológusként dolgozol?",
+        "answer": "Life coachként és anyakörvezetőként dolgozom. Pszichológiai tanulmányaim jelenleg folyamatban vannak; az itt bemutatott alkalmak coachingbeszélgetések és anyakörök."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kapcsolat",
+    "heading": "Kezdjük ott, ahol most vagy.",
+    "text": "Ha megszólított valamelyik lehetőség, az első lépés egy rövid egyeztetés. Elmondhatod, mi foglalkoztat, és együtt megnézzük, hogyan tudunk kapcsolódni.",
+    "email": null,
+    "messengerUrl": null,
+    "facebookUrl": null,
+    "emailButton": "Írok Juditnak",
+    "messengerButton": "Beszéljünk Messengeren",
+    "facebookLabel": "Facebook",
+    "response": "A megkeresésekre várhatóan egy napon belül válaszolok.",
+    "pending": "A jelentkezési elérhetőségeket és az induló alkalmak részleteit hamarosan megosztom.",
+    "location": "Szigetszentmiklós · személyes találkozások"
+  },
+  "footer": {
+    "text": "Figyelem és kapcsolódás az anyaságban.",
+    "year": 2026
+  }
+}
