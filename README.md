@@ -31,6 +31,8 @@ A `null` értékek szándékosan hiányzó adatok. A kapcsolat rész addig táj�
 
 ## Képek és tartalomforrások
 
+- `assets/judit-portrait.webp`: Judit eredeti fényképe a https://anyalettemkartyak.hu/pages/contact oldalról. A portrékivágást a weboldal CSS-ben végzi; az arcvonások és az eredeti fénykép tartalma változatlan.
+
 - `assets/anyakor-illusztracio.webp`: ehhez az oldalhoz készített AI-illusztráció; nem Judit portréja, és nem valódi résztvevők fényképe.
 - `assets/anya-lettem-kartyak.webp`: az Anya lettem kártyák saját webáruházának termékfotója. Forrás: https://anyalettemkartyak.hu/ . A kérés és az interjú a terméket a saját terméketekhez kapcsolta.
 - A bemutatkozás és a szolgáltatási keretek forrása a 2026. október 1-jén átadott interjú. A marketingmegfogalmazások szerkesztett induló szövegek, nem szó szerinti idézetek.
