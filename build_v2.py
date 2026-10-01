@@ -46,7 +46,7 @@ def build():
  process='<section class="section container">'+section_head(c['process'])+'<ol class="steps">'+''.join('<li><span>0'+str(i+1)+'</span><div><h3>'+e(s['title'])+'</h3><p>'+e(s['text'])+'</p></div></li>' for i,s in enumerate(c['process']['steps']))+'</ol></section>'
  about='<section class="section about" id="rolam"><div class="container about-grid"><div>'+section_head(a)+'<p class="lead">'+e(a['lead'])+'</p>'+paragraphs(a['paragraphs'])+'</div><aside><div class="about-photo"><img src="'+e(a['portrait'])+'" alt="'+e(a['portraitAlt'])+'" loading="lazy"></div><div class="qualifications">'+''.join('<div><h3>'+e(q['title'])+'</h3><p>'+e(q['text'])+'</p></div>' for q in a['qualifications'])+'</div></aside></div><div class="container three-grid values">'+''.join('<div><h3>'+e(x['title'])+'</h3><p>'+e(x['text'])+'</p></div>' for x in a['values'])+'</div><p class="container scope">'+e(a['scope'])+'</p></section>'
  practical='<section class="section container">'+section_head(c['practical'])+'<div class="three-grid">'+''.join('<article><h3>'+e(x['title'])+'</h3><p>'+e(x['text'])+'</p></article>' for x in c['practical']['items'])+'</div></section>'
- k=c['cards'];cards=f'<section class="cards"><div class="container cards-grid"><img src="{e(k["image"])}" alt="{e(k["imageAlt"])}" width="900" height="900" loading="lazy"><div>{section_head(k)}<p>{e(k["text"])}</p>{button(k["url"],k["cta"],"secondary")}</div></div></section>'
+ k=c['cards'];cards=f'<section class="cards"><div class="container cards-grid"><img src="{e(k["image"])}" alt="{e(k["imageAlt"])}" loading="lazy"><div>{section_head(k)}<p>{e(k["text"])}</p>{button(k["url"],k["cta"],"secondary")}</div></div></section>'
  faq='<section class="section container faq" id="kerdesek"><div>'+section_head(c['faq'])+'</div><div>'+''.join('<details><summary>'+e(x['question'])+'</summary><p>'+e(x['answer'])+'</p></details>' for x in c['faq']['items'])+'</div></section>'
  gallery=''
  if c.get('gallery',{}).get('enabled'):
@@ -55,7 +55,23 @@ def build():
    if not item['src'].startswith(('assets/','../assets/','https://')):raise ValueError('Invalid gallery image')
    gallery+=f'<figure><img src="{e(item["src"])}" alt="{e(item["alt"])}" loading="lazy"><figcaption>{e(item["caption"])}</figcaption></figure>'
   gallery+='</div></section>'
- (OUT/'index.html').write_text(shell(hero+welcome+situations+offers+process+about+practical+gallery+booking+faq+cards+contact,c['meta']['title']))
+ video=''
+ if c.get('video',{}).get('enabled'):
+  v=c['video']
+  media=(f'<video controls preload="none" poster="{e(v["poster"])}"><source src="{e(v["src"])}" type="video/mp4">'+(f'<track src="{e(v["captionsSrc"])}" kind="captions" srclang="hu" label="Magyar" default>' if v['captionsSrc'] else '')+'</video>') if v['src'] else f'<div class="video-placeholder" role="img" aria-label="{e(v["placeholder"])}"><img src="{e(v["poster"])}" alt="{e(a["portraitAlt"])}" loading="lazy"><span aria-hidden="true">▷</span><p>{e(v["placeholder"])}</p></div>'
+  video='<section class="section container video-section" id="bemutatkozo-video"><div>'+section_head(v)+'<p>'+e(v['text'])+'</p><details><summary>'+e(v['transcriptTitle'])+'</summary><p>'+e(v['transcript'])+'</p></details></div><div>'+media+'</div></section>'
+ testimonial=''
+ if c.get('testimonial',{}).get('enabled'):
+  t=c['testimonial'];testimonial='<section class="section testimonial"><div class="container">'+section_head(t)+'<blockquote><p>„'+e(t['quote'])+'”</p><footer>'+e(t['attribution'])+'</footer></blockquote><p class="hint">'+e(t['context'])+'</p></div></section>'
+ ap=c['appearances']
+ appearances='<section class="section container appearances-preview">'+section_head(ap)+'<p class="section-lead">'+e(ap['text'])+'</p><div class="appearance-tags">'+''.join('<span>'+e(x['title'])+'</span>' for x in ap['items'][2:])+'</div>'+button('megjelenesek/',ap['cta'],'secondary')+'</section>'
+ (OUT/'index.html').write_text(shell(hero+welcome+situations+offers+process+about+video+testimonial+appearances+practical+gallery+booking+faq+cards+contact,c['meta']['title']))
+ press=OUT/'megjelenesek';press.mkdir(exist_ok=True)
+ pressbody='<section class="section container"><p class="eyebrow">'+e(ap['eyebrow'])+'</p><h1>'+e(ap['heading'])+'</h1><p class="section-lead">'+e(ap['text'])+'</p><div class="appearance-grid">'+''.join('<article class="appearance"><p class="eyebrow">'+e(x['tag'])+'</p><h2>'+e(x['title'])+'</h2><p>'+e(x['text'])+'</p>'+(f'<a href="{e(x["url"])}" target="_blank" rel="noopener">{e(ap["linkLabel"])} ↗</a>' if x['url'] else '')+'</article>' for x in ap['items'])+'</div><p class="section-lead">'+e(ap['closing'])+'</p>'+button('#kapcsolat',ap['contactLabel'])+'</section>'+contact
+ presshtml=shell(pressbody,ap['heading']+' · '+b['name'],base='../')
+ for anchor in ('main','top','kapcsolat'):presshtml=presshtml.replace(f'href="#{anchor}"',f'href="megjelenesek/#{anchor}"')
+ (press/'index.html').write_text(presshtml)
+
  for s in o['items']:
   body=f'<section class="container service-hero"><a class="text-link" href="./">← {e(c["labels"]["backHome"])}</a><p class="eyebrow">{e(s["tag"])}</p><h1>{e(s["title"])}</h1><p class="lead">{e(s["subtitle"])}</p><p>{e(s["forWhom"])}</p><div class="service-summary"><strong>{price(s)}</strong><span>{e(s["duration"])}</span><span>{e(s["format"])}</span></div><p class="hint">{e(o["priceNote"])}</p>{button("#idopontok",s["bookingLabel"])}<p>{e(s["description"])}</p></section><section class="section container service-details"><div><h2>{e(c["labels"]["serviceProcess"])}</h2><ol>'+''.join('<li>'+e(x)+'</li>' for x in s['process'])+f'</ol><p>{e(s["outcome"])}</p></div><div><h2>{e(c["labels"]["serviceTopics"])}</h2><ul>'+''.join('<li>'+e(x)+'</li>' for x in s['topics'])+f'</ul><h3>{e(c["labels"]["servicePractical"])}</h3><p>{e(s["logistics"])}</p></div></section><p class="container scope">{e(s["boundary"])}</p>'+booking+faq+contact
   page=OUT/s['id'];page.mkdir(exist_ok=True)

@@ -12,7 +12,7 @@
   "review": {
     "enabled": true,
     "label": "V2 · összehasonlítható bemutató",
-    "text": "A szövegek és az induló árak Judit jóváhagyására várnak. Az időpontok minták; itt nem történik valódi jelentkezés.",
+    "text": "Technikai próbamód: a foglalás és az üzenetküldés kipróbálható, de nem küld valódi jelentkezést.",
     "original": "Az eredeti oldal",
     "originalUrl": "../"
   },
@@ -24,6 +24,10 @@
     {
       "label": "Rólam",
       "href": "#rolam"
+    },
+    {
+      "label": "Megjelenések",
+      "href": "megjelenesek/"
     },
     {
       "label": "Kérdések",
@@ -73,7 +77,7 @@
     "eyebrow": "KÉT LEHETŐSÉG, UGYANAZ A FIGYELEM",
     "heading": "Közösségben vagy kettesben.",
     "text": "Válaszd azt a formát, amelyben most könnyebb lenne megszólalnod. Elsősorban a várandósság és a kisgyerekes évek élethelyzeteivel érkező nőket várom.",
-    "priceNote": "Tervezett induló árak · jóváhagyásra várnak",
+    "priceNote": "Az ár a teljes alkalom díja; nincs külön regisztrációs költség.",
     "items": [
       {
         "id": "anyakor",
@@ -135,7 +139,7 @@
           "Döntések, újratervezés és munkába visszatérés",
           "Saját célok az anyai és más szerepek mellett"
         ],
-        "logistics": "Személyesen, Szigetszentmiklóson. Az online forma későbbi lehetőség; az indulásnál a személyes találkozásokra építek.",
+        "logistics": "Személyesen, Szigetszentmiklóson, nyugodt környezetben. A pontos címet a visszaigazolással küldöm el. Egy alkalom 60 perc; az első találkozó díja megegyezik a további alkalmak díjával.",
         "process": [
           "Megnézzük, milyen kérdéssel érkeztél, és mit szeretnél elérni.",
           "Körbejárjuk a lehetőségeidet, erőforrásaidat és a fontos szempontjaidat.",
@@ -173,7 +177,7 @@
       "Amikor 2021-ben megszületett az első kisfiam, örömmel vártam az anyaságot. Mégis hamar megtapasztaltam, hogy az öröm és a nehézség egyszerre is jelen lehet. A napok tele voltak feladatokkal, közben újra kellett keresnem, hol vagyok én ebben az egészben.",
       "Ebből a tapasztalatból születtek az Anya lettem kártyák is: szerettem volna az anyák saját mérföldköveinek helyet adni, humorral és őszinteséggel. A beszélgetéseimben ugyanez fontos nekem: az anya is kapjon figyelmet.",
       "Végzett life coach és Mother Nature anyakörvezető vagyok. A szülésélmény-feldolgozás témájában a Perinatus Alapítványnál tanultam, és jelenleg a Pázmány Péter Katolikus Egyetemen folytatok pszichológiai tanulmányokat.",
-      "A közgazdasági és szociológiai hátterem, a Groningeni Egyetemen töltött Erasmus-időszakom és a külföldi tapasztalataim is alakították a látásmódomat. A közös munkában mégis a te történeted és a mostani kérdésed van a középpontban."
+      "A közgazdasági és szociológiai hátterem, a Groningeni Egyetemen töltött Erasmus-időszakom és a külföldi tapasztalataim is alakították a látásmódomat. Angliában babysitterként családok mindennapjaiba is betekintést kaptam. Ma a saját anyai tapasztalataimmal és szakmai tudásommal együtt hozom ezt a figyelmet a beszélgetéseinkbe."
     ],
     "values": [
       {
@@ -192,7 +196,7 @@
     "qualifications": [
       {
         "title": "Life coach",
-        "text": "Elvégzett coachingképzés; a pontos képzési adatok jóváhagyás alatt."
+        "text": "Life coaching: célok, döntések és személyes változások kísérése."
       },
       {
         "title": "Mother Nature anyakörvezető",
@@ -222,8 +226,8 @@
         "text": "Jelentkezéskor egyeztetjük, hogy az adott alkalom babával látogatható-e. Ne indulj el bizonytalanul; előre tisztázzuk a lehetőségeket."
       },
       {
-        "title": "Előre megbeszélt feltételek",
-        "text": "A visszaigazolásban szerepel az ár, a fizetés módja, a helyszín és a lemondás feltétele. A bemutatóban ezek még tervezett keretek."
+        "title": "Átlátható díjak és lemondás",
+        "text": "A díjat a visszaigazolás után, átutalással rendezheted. Az alkalom előtt legalább 24 órával díjmentesen lemondhatsz vagy módosíthatsz. Későbbi lemondáskor a díj 50%-át számítom fel; váratlan betegség esetén egyszer díjmentes átfoglalást biztosítok."
       }
     ]
   },
@@ -254,23 +258,27 @@
       },
       {
         "question": "Beszélhetek a szülésem történetéről?",
-        "answer": "Jelezheted, ha ezzel a témával érkeznél. Előzetesen egyeztetjük, milyen támogatás lenne megfelelő. Külön szülésélmény-feldolgozó ajánlatot a pontos szakmai keretek tisztázása után hirdetek meg."
+        "answer": "Igen, elhozhatod a szülésed történetét. Előzetesen átbeszéljük, milyen figyelemre és támogatásra van szükséged, és a saját tempódban mesélhetsz. A beszélgetés támogató, önismereti tér; trauma terápiás feldolgozásához megfelelő szakember segítségét keressük."
       },
       {
         "question": "Lehet online találkozni?",
-        "answer": "Az induláskor személyes alkalmakat tervezek Szigetszentmiklóson. Az online coaching és az online körök későbbi lehetőségek."
+        "answer": "Személyesen, Szigetszentmiklóson találkozunk. Az anyakör közös terét és a coaching nyugodt környezetét is személyes jelenléttel biztosítom."
       },
       {
         "question": "A jelentkezéssel már végleges az időpont?",
-        "answer": "Még nem. A jelentkezés először függő állapotba kerül. Akkor végleges, amikor személyesen elfogadom, és megkapod a megerősítést. A bemutató oldalon ez a folyamat csak kipróbálható."
+        "answer": "A jelentkezésed először függő állapotba kerül. Akkor végleges, amikor elfogadom, és e-mailben megkapod a megerősítést, a címet és a fizetési tudnivalókat. Általában egy napon belül válaszolok."
       },
       {
         "question": "Mi történik, ha nem tudok elmenni?",
-        "answer": "Kérlek, jelezd minél előbb. A konkrét módosítási és lemondási feltételeket az indulás előtt véglegesítem, és a visszaigazolásban is elküldöm."
+        "answer": "A díjat a visszaigazolás után, átutalással rendezheted. Az alkalom előtt legalább 24 órával díjmentesen lemondhatsz vagy módosíthatsz. Későbbi lemondáskor a díj 50%-át számítom fel; váratlan betegség esetén egyszer díjmentes átfoglalást biztosítok. Ha én mondom le az alkalmat, választhatsz új időpontot vagy a teljes befizetett díj visszatérítését."
       },
       {
         "question": "Ez pszichológiai ellátás?",
         "answer": "Life coachingot és támogató anyaköröket kínálok. Ezek nem pszichoterápiás vagy egészségügyi szolgáltatások. A pszichológiai tanulmányaim folyamatban vannak."
+      },
+      {
+        "question": "Hogyan fizetek, és mikor indul az anyakör?",
+        "answer": "A visszaigazoló e-mailben kapott adatokkal, átutalással fizethetsz; a díjat 48 órán belül, közeli időpontnál a kezdés előtt rendezd. Az anyakör legalább 4, legfeljebb 6 résztvevővel indul. Ha a minimális létszám nem gyűlik össze, legkésőbb 24 órával a kezdés előtt jelzek: választhatsz másik időpontot vagy teljes visszatérítést."
       }
     ]
   },
@@ -340,8 +348,8 @@
   "legal": {
     "title": "Adatkezelés és szolgáltatási keretek",
     "demo": "Ez a v2 egy nyilvánosan elérhető, keresőindexelésből kizárt bemutató. Az űrlapok és a foglalás offline módban működnek: nem továbbítanak adatot, nem küldenek e-mailt, és nem kapcsolódnak Google- vagy Meta-szolgáltatáshoz. A próbaadatok csak a lap memóriájában élnek, frissítéskor elvesznek.",
-    "scope": "A szolgáltatások, az induló árak, a helyszín és a lemondási feltételek Judit jóváhagyására várnak. A bemutató űrlapján nem köthető szolgáltatási szerződés.",
-    "liveGate": "Az éles adatkezelési tájékoztatót a szolgáltató adataival, az adatfeldolgozókkal, a jogalapokkal, megőrzési időkkel és érintetti jogokkal az élesítés előtt kell véglegesíteni. Ennek jóváhagyása nélkül az online mód nem engedélyezhető."
+    "scope": "Anyakör: 120 perc, 4 500 Ft/fő, 4–6 résztvevő. Egyéni life coaching: 60 perc, 14 000 Ft. A díjat a visszaigazolás után, átutalással rendezheted. Az alkalom előtt legalább 24 órával díjmentesen lemondhatsz vagy módosíthatsz. Későbbi lemondáskor a díj 50%-át számítom fel; váratlan betegség esetén egyszer díjmentes átfoglalást biztosítok. Ha én mondom le az alkalmat vagy az anyakör létszáma nem éri el a 4 főt, másik időpontot vagy teljes visszatérítést választhatsz. A technikai próbamódban nem jön létre foglalás vagy fizetési kötelezettség.",
+    "liveGate": "A próbaűrlapok adatai kizárólag a böngésző memóriájában maradnak és frissítéskor törlődnek. Nem kerülnek Judit naptárába vagy levelezésébe. Az oldal külső Facebook- és webáruház-linkjei csak kattintásra nyílnak meg; ezekre az adott szolgáltató adatkezelési tájékoztatója vonatkozik."
   },
   "footer": {
     "text": "Figyelem az anyának is.",
@@ -364,7 +372,68 @@
     "enabled": false,
     "eyebrow": "AHOL TALÁLKOZUNK",
     "heading": "Egy hely a beszélgetésre.",
-    "text": "Valódi képek a találkozás helyszínéről; a galéria Judit fotóinak és képaláírásainak jóváhagyása után jelenik meg.",
+    "text": "Egy nyugodt tér a megérkezéshez, a beszélgetéshez és a kapcsolódáshoz.",
     "items": []
+  },
+  "video": {
+    "enabled": true,
+    "eyebrow": "EGY PERC, HOGY MEGISMERJ",
+    "heading": "Mielőtt találkozunk.",
+    "text": "Milyen velem egy beszélgetés? Mesélek arról, miért fontos nekem, hogy az anyák is figyelmet kapjanak, és hogyan találhatod meg a hozzád illő alkalmat.",
+    "src": "",
+    "poster": "../assets/judit-portrait.webp",
+    "captionsSrc": "",
+    "placeholder": "Bemutatkozó videó helye · 60 másodperc",
+    "transcriptTitle": "A videó szövege",
+    "transcript": "Szia, Szabó-Hauber Judit vagyok, life coach, Mother Nature anyakörvezető és két kisfiú édesanyja. Anyaként én is ismerem azt az érzést, amikor a gyerekek és a teendők között a saját kérdéseim hátrébb kerülnek. Az anyakörben más anyákkal kapcsolódhatsz: annyit osztasz meg, amennyi neked jó, és hallgatni is lehet. Az egyéni coachingon kettesben gondolkodunk egy döntéseden vagy élethelyzeteden, és megkeressük a következő vállalható lépést. Személyesen, Szigetszentmiklóson találkozunk. Ha még nem tudod, melyik forma illene hozzád, írj nekem egy rövid üzenetet. A saját történetednek is helye van."
+  },
+  "testimonial": {
+    "enabled": true,
+    "eyebrow": "EGY RÉSZTVEVŐ VISSZAJELZÉSE",
+    "heading": "Ami egy találkozás után is velünk marad.",
+    "quote": "Szeretettel ajánlom Juditot! Különleges anyakört vezetett tavaly ősszel, azóta is visszavágyom oda",
+    "attribution": "Egy korábbi anyakör résztvevője",
+    "context": "Nyilvános Facebook-visszajelzés egy anyakör meghirdetésénél."
+  },
+  "appearances": {
+    "eyebrow": "BESZÉLGETÉSEK ÉS KÖZÖSSÉGI TALÁLKOZÁSOK",
+    "heading": "Hol találkozhattál velem?",
+    "text": "Az anyáknak szánt figyelmet a beszélgetéseinken túl is fontosnak tartom. Családi rendezvényeken, workshopokon és médiamegjelenésekben is kapcsolódhattál hozzám.",
+    "cta": "Megnézem a megjelenéseket",
+    "items": [
+      {
+        "tag": "TELEVÍZIÓ",
+        "title": "Tévés riport",
+        "text": "Televíziós riportban is találkozhattál velem. A személyes beszélgetés egy másik lehetőség arra, hogy megismerd a munkámat és a szemléletemet.",
+        "url": ""
+      },
+      {
+        "tag": "SAJTÓ",
+        "title": "A coaching felé vezető utam",
+        "text": "Egy korábbi újságcikkben a coachinghoz vezető szakmai utamról is olvashattál.",
+        "url": ""
+      },
+      {
+        "tag": "CSALÁDI PROGRAM",
+        "title": "Anyakör a Baba-Apa csoport családi napján",
+        "text": "A Baba-Apa csoport családi napján anyakört vezettem: a családi program mellett az anyák saját történeteinek is helyet adtunk.",
+        "url": ""
+      },
+      {
+        "tag": "SZIGETSZENTMIKLÓS",
+        "title": "Szoptatás Világnapja",
+        "text": "Az Anya kikötővel a szigetszentmiklósi Szoptatás Világnapja rendezvényen is találkozhattál velem, a helyi családokat támogató kezdeményezések között.",
+        "url": "https://szigetszentmiklos.hu/index.php/hirek/szoptatas-vilagnapja-20250922070845"
+      },
+      {
+        "tag": "WORKSHOP",
+        "title": "Anyaságról az Anyubalance csapatával",
+        "text": "Az Anyubalance csapatával közös, anyaság témájú workshopot tartottunk. A találkozó középpontjában az anyák saját megélései álltak.",
+        "url": ""
+      }
+    ],
+    "linkLabel": "Megnézem a beszámolót",
+    "closing": "Szervezőként keresel? Szívesen kapcsolódom családi rendezvényhez vagy anyáknak szóló programhoz. Írd meg, kiknek, milyen helyzetben és mekkora csoportban szeretnél beszélgetést szervezni.",
+    "contactLabel": "Programról egyeztetnék"
   }
 }
