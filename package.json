@@ -1,0 +1,1 @@
+{"name":"hauberjudit-static-v2","private":true,"type":"module","scripts":{"test":"node --test tests/offline.test.mjs"}}

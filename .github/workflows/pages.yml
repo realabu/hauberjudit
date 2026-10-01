@@ -18,7 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Build static website
-        run: python3 build.py
+        run: |
+          python3 build.py
+          python3 build_v2.py
+      - name: Validate booking backend and offline mode
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          node --test tests/offline.test.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,0 +1,14 @@
+{
+  "host": "127.0.0.1", "port": 8081,
+  "database": "/var/lib/hauberjudit/bookings.sqlite3",
+  "publicSiteUrl": "https://realabu.github.io/hauberjudit/v2",
+  "allowedOrigins": ["https://realabu.github.io"],
+  "contentApproved": false, "legalApproved": false,
+  "adminToken": "REPLACE_WITH_AT_LEAST_32_RANDOM_CHARACTERS",
+  "ipHashSalt": "REPLACE_WITH_AT_LEAST_32_RANDOM_CHARACTERS",
+  "pendingHours": 48, "rateLimitPerHour": 10,
+  "meetingDetails": "JÓVÁHAGYANDÓ: pontos cím, érkezési tudnivalók, fizetés és lemondás feltételei.",
+  "google": {"calendarId": "", "clientId": "", "clientSecret": "", "refreshToken": "", "slotPrefix": "[HJ:FOGLALHATO]", "timezone": "Europe/Budapest"},
+  "smtp": {"host": "", "port": 587, "username": "", "password": "", "from": "", "ownerEmail": "", "implicitTLS": false},
+  "meta": {"enabled": false, "graphVersion": "", "pageId": "61577094587075", "appSecret": "", "verifyToken": "", "pageAccessToken": "", "reply": "Köszönöm az üzeneted! Általában egy napon belül válaszolok. Üdvözlettel: Judit"}
+}

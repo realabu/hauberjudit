@@ -57,3 +57,14 @@ A `null` értékek szándékosan hiányzó adatok. A kapcsolat rész addig táj�
 `dist/assets/` — helyi, optimalizált WebP képek
 
 Az első változat egyoldalas: bemutatkozás, képesítések, részletezhető szolgáltatások, a folyamat, kártyák, gyakori kérdések és kapcsolat. Nincs időpontfoglaló, vásárlási funkció vagy online szolgáltatás elérhetőségét ígérő gomb; a kártyák a meglévő webáruházban vásárolhatók meg.
+# Két párhuzamos változat
+
+Az eredeti: https://realabu.github.io/hauberjudit/
+
+A v2 bemutató: https://realabu.github.io/hauberjudit/v2/
+
+Az eredeti forrásai változatlanok. A v2 külön tartalmi és működési konfigurációt használ. Offline módja minden integrációt memóriában szimulál. A Google Calendar, SMTP és opcionális Meta webhook kódja külön, privát háttérszolgáltatásként készült; GitHub Pages csak a statikus előnézetet futtatja.
+
+[Konfiguráció és élesítési útmutató](docs/V2-INTEGRACIOK.md) · [Tartalmi források és döntések](docs/V2-FORRASOK-ES-DONTESEK.md)
+
+Judit jóváhagyó kérdőíve: https://docs.google.com/document/d/16ZW7aaUTlbihqFpPwg6rW0l-z0qObj6zokpuzCleA3k/edit

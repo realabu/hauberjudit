@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "title": "Szabó-Hauber Judit · Anyakör és life coaching Szigetszentmiklóson",
+    "description": "Idő és figyelem az anyának is. Személyes anyakörök és egyéni life coaching Szabó-Hauber Judittal, Szigetszentmiklóson.",
+    "language": "hu"
+  },
+  "brand": {
+    "name": "Szabó-Hauber Judit",
+    "role": "Life coach · Mother Nature anyakörvezető",
+    "location": "Szigetszentmiklós"
+  },
+  "review": {
+    "enabled": true,
+    "label": "V2 · összehasonlítható bemutató",
+    "text": "A szövegek és az induló árak Judit jóváhagyására várnak. Az időpontok minták; itt nem történik valódi jelentkezés.",
+    "original": "Az eredeti oldal",
+    "originalUrl": "../"
+  },
+  "navigation": [
+    {
+      "label": "Lehetőségek",
+      "href": "#lehetosegek"
+    },
+    {
+      "label": "Rólam",
+      "href": "#rolam"
+    },
+    {
+      "label": "Kérdések",
+      "href": "#kerdesek"
+    },
+    {
+      "label": "Időpontok",
+      "href": "#idopontok"
+    }
+  ],
+  "hero": {
+    "eyebrow": "ANYAKÖRÖK ÉS EGYÉNI LIFE COACHING",
+    "heading": "Az anyaságban\nte is számítasz.",
+    "text": "A gyerekek mellett a saját kérdéseidnek, terveidnek és érzéseidnek is helyük van. Személyes anyakörökön és egyéni beszélgetésekben adok időt és figyelmet annak, ami most téged foglalkoztat.",
+    "primary": "Megnézem a lehetőségeket",
+    "secondary": "Először megismernélek",
+    "location": "Személyesen, Szigetszentmiklóson",
+    "audience": "Várandós és kisgyermekes anyáknak",
+    "image": "../assets/anyakor-illusztracio.webp",
+    "imageAlt": "Anyák közös beszélgetése – illusztráció",
+    "imageCaption": "Egy kis tér, ahol te is sorra kerülsz. · Illusztráció"
+  },
+  "welcome": {
+    "heading": "Nem kell kész válaszokkal érkezned.",
+    "text": "Lehet, hogy más anyákkal kapcsolódnál. Lehet, hogy egy döntéshez keresel tisztább nézőpontot. Vagy egyszerűen szeretnél egy órát, amikor nem a teendőkről beszélünk, hanem rólad.",
+    "note": "A saját történetednek is helye van."
+  },
+  "situations": {
+    "eyebrow": "ONNAN INDULUNK, AHOL MOST VAGY",
+    "heading": "Mi hozna most közelebb magadhoz?",
+    "items": [
+      {
+        "title": "Kapcsolódás",
+        "text": "Jó lenne olyan anyákkal beszélgetni, akikkel nem kell mindent az elejéről elmagyaráznod."
+      },
+      {
+        "title": "Saját idő és határok",
+        "text": "Szeretnéd átgondolni, hogyan lehet helye a saját igényeidnek a családi mindennapokban."
+      },
+      {
+        "title": "Egy következő lépés",
+        "text": "Változás vagy döntés előtt állsz, és szeretnéd megtalálni, merre indulj a saját értékeid mentén."
+      }
+    ]
+  },
+  "offers": {
+    "eyebrow": "KÉT LEHETŐSÉG, UGYANAZ A FIGYELEM",
+    "heading": "Közösségben vagy kettesben.",
+    "text": "Válaszd azt a formát, amelyben most könnyebb lenne megszólalnod. Elsősorban a várandósság és a kisgyerekes évek élethelyzeteivel érkező nőket várom.",
+    "priceNote": "Tervezett induló árak · jóváhagyásra várnak",
+    "items": [
+      {
+        "id": "anyakor",
+        "number": "01",
+        "tag": "KAPCSOLÓDÁS MÁS ANYÁKKAL",
+        "title": "Anyakör",
+        "subtitle": "Egy délelőtt, amikor nem kell mindent egyedül átgondolnod.",
+        "description": "Vezetett, kis létszámú beszélgetés a Mother Nature szemléletével. Meghallgatjuk egymást, saját tapasztalatokat osztunk meg, és figyelmet adunk annak is, ami a hétköznapokban háttérbe szorul.",
+        "duration": "120 perc",
+        "price": 4500,
+        "priceUnit": "Ft / alkalom",
+        "format": "Személyesen · 4–6 résztvevő",
+        "cta": "Megnézem az anyakört",
+        "landing": "anyakor/",
+        "points": [
+          "Vezetett ráhangolódás és közös beszélgetés.",
+          "Annyit osztasz meg, amennyi számodra komfortos; hallgatni is lehet.",
+          "Babával érkezésről előzetesen egyeztetünk."
+        ],
+        "forWhom": "Ha közösségre, meghallgatásra és más anyák tapasztalataira vágysz.",
+        "outcome": "Az alkalom célja, hogy figyelmet kapj, kapcsolódj, és egy számodra fontos felismerést vihess magaddal.",
+        "boundary": "Az anyakör támogató közösségi alkalom. Pszichoterápiát és egészségügyi ellátást nem helyettesít.",
+        "topics": [
+          "Helyet találni magamnak az anyaságban",
+          "Segítséget kérni és elfogadni",
+          "Saját igények, határok és elvárások"
+        ],
+        "logistics": "Családias környezetben, Szigetszentmiklóson. A pontos címet az elfogadott jelentkezés visszaigazolásában küldöm el.",
+        "process": [
+          "Megérkezés és ráhangolódás a közös témára.",
+          "Vezetett megosztás, figyelmes meghallgatás és kapcsolódás.",
+          "Lezárás: mi fontos most neked, mit viszel tovább?"
+        ],
+        "bookingLabel": "Anyakörre jelentkeznék"
+      },
+      {
+        "id": "coaching",
+        "number": "02",
+        "tag": "SZEMÉLYES FIGYELEM NEKED",
+        "title": "Egyéni life coaching",
+        "subtitle": "Egy óra a kérdésedre, a lehetőségeidre és a saját válaszaidra.",
+        "description": "Kettesben dolgozunk egy élethelyzeten, döntésen vagy változáson. Segítek pontosítani, mi fontos neked, milyen lehetőségeid vannak, és mi lehet a következő vállalható lépés.",
+        "duration": "60 perc",
+        "price": 14000,
+        "priceUnit": "Ft / alkalom",
+        "format": "Személyesen · egyéni beszélgetés",
+        "cta": "Megnézem a coachingot",
+        "landing": "coaching/",
+        "points": [
+          "Az első alkalmon tisztázzuk a témádat és a közös munka kereteit.",
+          "Kérdésekkel és közös gondolkodással segítelek; a döntés a tiéd.",
+          "A folytatásról együtt döntünk, előre megvásárolt csomag nélkül."
+        ],
+        "forWhom": "Ha egy személyes kérdést nyugodtan, kettesben szeretnél átgondolni. Nőket az anyaságtól független élethelyzettel is várok.",
+        "outcome": "Az alkalom célja egy világosabb fókusz és egy olyan következő lépés, amely a saját életedben is megvalósítható.",
+        "boundary": "A coaching életvezetési és célokra irányuló folyamat. Nem pszichológiai diagnosztika vagy pszichoterápia.",
+        "topics": [
+          "Saját idő, igények és személyes határok",
+          "Döntések, újratervezés és munkába visszatérés",
+          "Saját célok az anyai és más szerepek mellett"
+        ],
+        "logistics": "Személyesen, Szigetszentmiklóson. Az online forma későbbi lehetőség; az indulásnál a személyes találkozásokra építek.",
+        "process": [
+          "Megnézzük, milyen kérdéssel érkeztél, és mit szeretnél elérni.",
+          "Körbejárjuk a lehetőségeidet, erőforrásaidat és a fontos szempontjaidat.",
+          "Megfogalmazzuk a következő lépést és egyeztetjük, szükséges-e folytatás."
+        ],
+        "bookingLabel": "Coachingra jelentkeznék"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "EGYSZERŰEN ELINDULHATSZ",
+    "heading": "Így találkozunk.",
+    "steps": [
+      {
+        "title": "Válassz egy lehetőséget",
+        "text": "Nézd meg az alkalmakat, vagy írj egy rövid üzenetet, ha még nem tudod, melyik forma lenne jó neked."
+      },
+      {
+        "title": "Visszajelzek és egyeztetünk",
+        "text": "A megkeresésedre általában egy napon belül válaszolok. A jelentkezésedet személyesen fogadom el; addig az időpont függőben van."
+      },
+      {
+        "title": "Megérkezhetsz úgy, ahogy vagy",
+        "text": "A visszaigazolásban megkapod a találkozó részleteit. Nem kell jól összerakott történettel vagy kész megoldással érkezned."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "ISMERJ MEG",
+    "heading": "Szia, Judit vagyok.",
+    "lead": "Life coach, Mother Nature anyakörvezető és két kisfiú édesanyja.",
+    "portrait": "../assets/judit-portrait.webp",
+    "portraitAlt": "Szabó-Hauber Judit",
+    "paragraphs": [
+      "Amikor 2021-ben megszületett az első kisfiam, örömmel vártam az anyaságot. Mégis hamar megtapasztaltam, hogy az öröm és a nehézség egyszerre is jelen lehet. A napok tele voltak feladatokkal, közben újra kellett keresnem, hol vagyok én ebben az egészben.",
+      "Ebből a tapasztalatból születtek az Anya lettem kártyák is: szerettem volna az anyák saját mérföldköveinek helyet adni, humorral és őszinteséggel. A beszélgetéseimben ugyanez fontos nekem: az anya is kapjon figyelmet.",
+      "Végzett life coach és Mother Nature anyakörvezető vagyok. A szülésélmény-feldolgozás témájában a Perinatus Alapítványnál tanultam, és jelenleg a Pázmány Péter Katolikus Egyetemen folytatok pszichológiai tanulmányokat.",
+      "A közgazdasági és szociológiai hátterem, a Groningeni Egyetemen töltött Erasmus-időszakom és a külföldi tapasztalataim is alakították a látásmódomat. A közös munkában mégis a te történeted és a mostani kérdésed van a középpontban."
+    ],
+    "values": [
+      {
+        "title": "Figyelem",
+        "text": "Időt adunk annak, amit szeretnél elmondani."
+      },
+      {
+        "title": "Saját válaszok",
+        "text": "A saját szempontjaidból indulunk ki."
+      },
+      {
+        "title": "Világos keretek",
+        "text": "Előre egyeztetjük, miben és hogyan dolgozunk együtt."
+      }
+    ],
+    "qualifications": [
+      {
+        "title": "Life coach",
+        "text": "Elvégzett coachingképzés; a pontos képzési adatok jóváhagyás alatt."
+      },
+      {
+        "title": "Mother Nature anyakörvezető",
+        "text": "Az anyai tapasztalatoknak és a közösségi kapcsolódásnak teret adó szemlélet."
+      },
+      {
+        "title": "Perinatus Alapítvány",
+        "text": "Tanulmányok a szülésélmény-feldolgozás kísérésének témájában."
+      },
+      {
+        "title": "Pázmány Péter Katolikus Egyetem",
+        "text": "Folyamatban lévő pszichológiai tanulmányok; nem pszichológusi végzettség."
+      }
+    ],
+    "scope": "Life coachként és anyakörvezetőként dolgozom. Ha a kérdésed más szakember kompetenciájába tartozik, ezt megbeszéljük, és megfelelő segítséget keresünk."
+  },
+  "practical": {
+    "eyebrow": "A TALÁLKOZÁS KERETEI",
+    "heading": "A részletek is számítanak.",
+    "items": [
+      {
+        "title": "Közel, személyesen",
+        "text": "Szigetszentmiklóson, családias környezetben találkozunk. Tökölről, Szigethalomról, Dunaharasztiból és Dél-Budapestről is várlak."
+      },
+      {
+        "title": "Babával érkezés",
+        "text": "Jelentkezéskor egyeztetjük, hogy az adott alkalom babával látogatható-e. Ne indulj el bizonytalanul; előre tisztázzuk a lehetőségeket."
+      },
+      {
+        "title": "Előre megbeszélt feltételek",
+        "text": "A visszaigazolásban szerepel az ár, a fizetés módja, a helyszín és a lemondás feltétele. A bemutatóban ezek még tervezett keretek."
+      }
+    ]
+  },
+  "cards": {
+    "eyebrow": "EGY ÖTLET, AMELY UGYANINNEN INDULT",
+    "heading": "Anya lettem kártyák",
+    "text": "Mérföldkövek az anyának is. A saját anyai tapasztalataimból született kártyák humorral és őszinteséggel adnak helyet az első év apró győzelmeinek és emlékeinek.",
+    "image": "../assets/anya-lettem-kartyak.webp",
+    "imageAlt": "Anya lettem mérföldkőkártyák",
+    "cta": "Megnézem a kártyákat",
+    "url": "https://anyalettemkartyak.hu/"
+  },
+  "faq": {
+    "eyebrow": "AMIT JÓ ELŐRE TUDNI",
+    "heading": "Kérdések, amelyek felmerülhetnek.",
+    "items": [
+      {
+        "question": "Anyakört vagy coachingot válasszak?",
+        "answer": "Az anyakör akkor lehet jó, ha más anyákkal kapcsolódnál és közösségi beszélgetésre vágysz. A coaching egyéni figyelmet ad egy személyes témádhoz vagy célodhoz. Ha bizonytalan vagy, írj röviden, és egyeztetünk."
+      },
+      {
+        "question": "Kell beszélnem az anyakörben?",
+        "answer": "A saját tempódban kapcsolódhatsz. Nem kell mindent megosztanod, és hallgatni is lehet. A közös kereteket az alkalom elején átbeszéljük."
+      },
+      {
+        "question": "Hány coachingalkalomra számítsak?",
+        "answer": "Ez a kérdésedtől és a célodtól függ. Elképzelhető 3–5 alkalmas folyamat, de nem kell előre hosszú csomag mellett elköteleződnöd. Az első találkozás után közösen egyeztetjük a folytatást."
+      },
+      {
+        "question": "Beszélhetek a szülésem történetéről?",
+        "answer": "Jelezheted, ha ezzel a témával érkeznél. Előzetesen egyeztetjük, milyen támogatás lenne megfelelő. Külön szülésélmény-feldolgozó ajánlatot a pontos szakmai keretek tisztázása után hirdetek meg."
+      },
+      {
+        "question": "Lehet online találkozni?",
+        "answer": "Az induláskor személyes alkalmakat tervezek Szigetszentmiklóson. Az online coaching és az online körök későbbi lehetőségek."
+      },
+      {
+        "question": "A jelentkezéssel már végleges az időpont?",
+        "answer": "Még nem. A jelentkezés először függő állapotba kerül. Akkor végleges, amikor személyesen elfogadom, és megkapod a megerősítést. A bemutató oldalon ez a folyamat csak kipróbálható."
+      },
+      {
+        "question": "Mi történik, ha nem tudok elmenni?",
+        "answer": "Kérlek, jelezd minél előbb. A konkrét módosítási és lemondási feltételeket az indulás előtt véglegesítem, és a visszaigazolásban is elküldöm."
+      },
+      {
+        "question": "Ez pszichológiai ellátás?",
+        "answer": "Life coachingot és támogató anyaköröket kínálok. Ezek nem pszichoterápiás vagy egészségügyi szolgáltatások. A pszichológiai tanulmányaim folyamatban vannak."
+      }
+    ]
+  },
+  "booking": {
+    "eyebrow": "A KÖVETKEZŐ LÉPÉS",
+    "heading": "Válassz egy alkalmat.",
+    "text": "Nézd meg az időpontokat, és küldd el a jelentkezésedet. Végleges foglalás személyes visszaigazolás után lesz.",
+    "offlineNotice": "Kipróbálható bemutató · mintaidőpontokkal. Az adatok nem kerülnek szerverre, és valódi e-mailt sem küldünk.",
+    "empty": "Jelenleg nincs meghirdetett időpont. Írj üzenetet, és egyeztetünk a lehetőségekről.",
+    "loading": "Időpontok betöltése…",
+    "error": "Az időpontok most nem érhetők el. Próbáld újra, vagy használd az üzenetküldést.",
+    "filterAll": "Minden alkalom",
+    "listView": "Lista",
+    "calendarView": "Naptár",
+    "previous": "Előző hónap",
+    "next": "Következő hónap",
+    "selectDate": "Időpontok ezen a napon",
+    "seats": "szabad hely",
+    "full": "Betelt",
+    "choose": "Ezt választom",
+    "retry": "Újrapróbálom",
+    "selected": "Kiválasztott alkalom",
+    "formTitle": "Jelentkezés az alkalomra",
+    "name": "Neved",
+    "email": "E-mail-címed",
+    "baby": "Babával érkeznék, szeretnék erről egyeztetni",
+    "privacy": "Elolvastam a jelentkezés adatkezelési tájékoztatóját.",
+    "submit": "Elküldöm a jelentkezést",
+    "submitting": "Küldés…",
+    "close": "Bezárás",
+    "successTitle": "A jelentkezésed függőben van.",
+    "success": "A végleges időpontot Judit elfogadása után erősítjük meg.",
+    "demoSuccess": "Ez egy próba-jelentkezés. Judit nem kapott értesítést; az alábbi gombbal kipróbálhatod az elfogadást is.",
+    "demoApprove": "Judit elfogadásának kipróbálása",
+    "confirmedTitle": "A próba-időpont megerősítve.",
+    "confirmed": "A valódi folyamatban itt e-mailes megerősítés és naptármeghívó is érkezik.",
+    "addCalendar": "Naptárfájl letöltése",
+    "cancel": "Jelentkezés visszavonása",
+    "cancelled": "A jelentkezést visszavontad.",
+    "conflict": "Ez az időpont időközben betelt. Kérlek, válassz másikat.",
+    "invalid": "Ellenőrizd a nevet, az e-mail-címet és az adatkezelési jelölést.",
+    "submitError": "Nem sikerült elküldeni. Próbáld újra; a jelentkezést csak a sikeres visszajelzés igazolja.",
+    "demoMailTitle": "Minta visszaigazoló e-mail",
+    "demoMailBody": "Köszönöm a jelentkezésed! Az időpontod még függőben van. A találkozó részleteit az elfogadás után küldöm. Üdvözlettel: Judit"
+  },
+  "contact": {
+    "eyebrow": "HA MÉG VAN KÉRDÉSED",
+    "heading": "Kezdhetjük egy üzenettel is.",
+    "text": "Nem kell rögtön időpontot választanod. Írd meg röviden, melyik lehetőség érdekel; a részleteket személyesen egyeztetjük.",
+    "response": "Általában egy napon belül válaszolok.",
+    "topicLabel": "Mi érdekel?",
+    "topics": [
+      "Anyakör",
+      "Egyéni life coaching",
+      "Még nem tudom"
+    ],
+    "messageLabel": "Üzeneted (nem kötelező)",
+    "messageHint": "Itt elég egy rövid, gyakorlati kérdés. Érzékeny személyes vagy egészségügyi részleteket kérlek, ne írj az űrlapba.",
+    "submit": "Üzenetet küldök",
+    "success": "Megérkezett az üzeneted. Judit a megadott e-mail-címen válaszol.",
+    "demoSuccess": "A próbaüzenet elkészült. Nem küldtük el, és nem mentettük szerverre.",
+    "messenger": "Írnék Messengeren",
+    "messengerDemo": "A bemutatóban a Messenger nem nyílik meg. Az éles oldalon Judit szakmai oldalának beszélgetéséhez vezet majd.",
+    "socialLabel": "Judit szakmai Facebook-oldala",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61577094587075"
+  },
+  "legal": {
+    "title": "Adatkezelés és szolgáltatási keretek",
+    "demo": "Ez a v2 egy nyilvánosan elérhető, keresőindexelésből kizárt bemutató. Az űrlapok és a foglalás offline módban működnek: nem továbbítanak adatot, nem küldenek e-mailt, és nem kapcsolódnak Google- vagy Meta-szolgáltatáshoz. A próbaadatok csak a lap memóriájában élnek, frissítéskor elvesznek.",
+    "scope": "A szolgáltatások, az induló árak, a helyszín és a lemondási feltételek Judit jóváhagyására várnak. A bemutató űrlapján nem köthető szolgáltatási szerződés.",
+    "liveGate": "Az éles adatkezelési tájékoztatót a szolgáltató adataival, az adatfeldolgozókkal, a jogalapokkal, megőrzési időkkel és érintetti jogokkal az élesítés előtt kell véglegesíteni. Ennek jóváhagyása nélkül az online mód nem engedélyezhető."
+  },
+  "footer": {
+    "text": "Figyelem az anyának is.",
+    "privacy": "Adatkezelés és keretek",
+    "original": "Eredeti változat",
+    "top": "Vissza a tetejére",
+    "year": "2026"
+  },
+  "labels": {
+    "skip": "Ugrás a tartalomhoz",
+    "menu": "Menü",
+    "details": "Részletek és jelentkezés",
+    "serviceTopics": "Ilyen témákkal érkezhetsz",
+    "serviceProcess": "Mi történik az alkalmon?",
+    "servicePractical": "Helyszín és részletek",
+    "backHome": "Vissza a főoldalra",
+    "currencyLocale": "hu-HU"
+  },
+  "gallery": {
+    "enabled": false,
+    "eyebrow": "AHOL TALÁLKOZUNK",
+    "heading": "Egy hely a beszélgetésre.",
+    "text": "Valódi képek a találkozás helyszínéről; a galéria Judit fotóinak és képaláírásainak jóváhagyása után jelenik meg.",
+    "items": []
+  }
+}

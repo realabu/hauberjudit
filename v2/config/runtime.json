@@ -1,0 +1,10 @@
+{
+  "mode": "offline",
+  "apiBaseUrl": "",
+  "timeoutMs": 12000,
+  "legalApproved": false,
+  "contentApproved": false,
+  "features": {"booking": true, "contact": true, "calendar": true, "messenger": true},
+  "calendar": {"timezone": "Europe/Budapest", "mockSlots": [{"id": "circle-1", "serviceId": "anyakor", "daysAhead": 8, "hour": 10, "minute": 0, "durationMinutes": 120, "capacity": 6, "reserved": 2}, {"id": "coach-1", "serviceId": "coaching", "daysAhead": 10, "hour": 9, "minute": 0, "durationMinutes": 60, "capacity": 1, "reserved": 0}, {"id": "coach-2", "serviceId": "coaching", "daysAhead": 10, "hour": 11, "minute": 0, "durationMinutes": 60, "capacity": 1, "reserved": 1}, {"id": "circle-2", "serviceId": "anyakor", "daysAhead": 15, "hour": 10, "minute": 0, "durationMinutes": 120, "capacity": 6, "reserved": 0}, {"id": "coach-3", "serviceId": "coaching", "daysAhead": 17, "hour": 10, "minute": 0, "durationMinutes": 60, "capacity": 1, "reserved": 0}]},
+  "messenger": {"pageId": "61577094587075", "profileUrl": "https://www.facebook.com/profile.php?id=61577094587075", "link": "https://m.me/61577094587075"}
+}

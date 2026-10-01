@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+backend/config.private.json
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+node_modules/
